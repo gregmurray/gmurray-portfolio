@@ -1,0 +1,37 @@
+.carousel-caption{
+	color:black;
+	//background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+//	                                    support rgba */
+//	background: rgba(54, 25, 25, .5);
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+	
+}
+.navbar-custom{
+	//background-color:red;
+	background: rgba(54, 25, 25, .5);
+	color:white;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {     
+	text-decoration: none;     
+	color: #33aa33; 
+	background-color: none;
+	background: rgba(54, 25, 25, .5); 
+}
+@import "bootstrap";
