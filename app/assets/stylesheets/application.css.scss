@@ -42,6 +42,7 @@
 	text-decoration: none;     
 	color: #FF0000; 
 	background-color: none;
+	background:none;
 }
 
 a.navbar-brand{
@@ -61,6 +62,20 @@ a.navbar-brand{
 .nav_link a{
   	color:blue;
 }
+.navbar-default .navbar-toggle {
+  border-color: #563D7C;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #563D7C;
+}
+.icon-bar{
+	border:1px solid black;
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Nixie One', cursive;
