@@ -15,10 +15,17 @@
     <header>
       <%= render 'layouts/navigation' %>
     </header>
+	<div id="contact_bubble" class="<%= "active" if request.fullpath == "/contact"  %>">
+		<%= link_to "contact", "/contact" %>
+		 <img class="img-circle img-circle-small-border" src="/assets/greg.jpg" width="50%">
+	</div>
     <main role="main">
+		
+		
        <%= render 'layouts/messages' %>
        <%= yield %>
 	   <%= render 'layouts/footer' %>
     </main>
+	
   </body>
 </html>

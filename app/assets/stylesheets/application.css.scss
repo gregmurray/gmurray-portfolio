@@ -92,3 +92,62 @@ body, p{
 .caption-black{
 	color:black;
 }
+
+.img-circle-border{
+	border:solid 10px rgba(228.0,101.0,4.0, 0.5);
+}
+
+#contact_bubble{
+	position:fixed;
+	top:10px;
+	right:40px;
+	width:150px;
+	height:150px;
+	z-index:10000;
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+}
+
+#contact_bubble a:hover{
+	text-decoration: none;     
+	color: #FF0000; 
+	background-color: none;
+	background:none;
+}
+#contact_bubble a{
+	text-decoration: none;     
+	color: black; 
+	background-color: none;
+	background:none;
+}
+
+#contact_bubble.active a{
+	text-decoration: none;     
+	color: #CC3300; 
+	background-color: none;
+	background:none;
+}
+
+.img-circle-small-border{
+	//border:solid 2px rgba(0,0,0, 0.5);
+	border:solid 2px rgba(228.0,101.0,4.0, 0.5);
+}
+
+#bottom_bubble{
+	position:fixed;
+	bottom:20px;
+	left:20px;
+	z-index:10000;
+	text-align:center;
+	font-family: 'Poiret One', cursive;
+}
+
+.small_bill{
+	width:40px;
+	font-size:3px;
+}
+
+.large_bill{
+	width:150px;
+	font-size:14px;
+}

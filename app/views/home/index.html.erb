@@ -8,13 +8,7 @@
             <img src="/assets/Aerial04.jpg" >
             <div class="container">
               <div class="carousel-caption">
-				   <!-- <img class="img-circle" src="/assets/greg.jpg" width="250">
-				   </br>
-				   </br>
-				   </br>
-				   </br>
-				   </br>
-				   </br> -->
+				   <!-- <img class="img-circle img-circle-border" src="/assets/greg.jpg" width="50%"> -->
               </div>
             </div>
           </div>
@@ -69,3 +63,10 @@
         </div>
       </div>
 </div> <!-- /container -->
+
+
+<div id="bottom_bubble" class="small_bill">
+	 <%= link_to image_tag("/assets/bill_murray.jpg", :width => "100%", :class => "img-circle img-circle-small-border"), "#Your_Awesome", :onclick => "$().make_bill_large();", :mouseover => "$().make_bill_large();", :id => "toggle_bill"%>
+	 </br>
+	 <p>"No Relation"</p>
+</div>
