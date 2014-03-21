@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 .carousel-caption{
 	color:black;
 	//background: rgb(54, 25, 25); /* Fall-back for browsers that don't
@@ -12,17 +14,25 @@
 	user-select: none;
 	
 }
+.navbar{
+	margin-top:20px;
+}
 .navbar-custom{
 	//background-color:red;
-	background: rgba(54, 25, 25, .5);
+	// background: rgba(10, 63, 90, .5);
+	background-color:white;
 	color:white;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+    color:black;
+  	font-family: 'Poiret One', cursive;
+  	font-size:20px;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
+    color: #CC3300;
     background-color:transparent;
 }
 .navbar-custom .navbar-brand {
@@ -30,8 +40,40 @@
 }
 .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {     
 	text-decoration: none;     
-	color: #33aa33; 
+	color: #FF0000; 
 	background-color: none;
-	background: rgba(54, 25, 25, .5); 
 }
-@import "bootstrap";
+
+a.navbar-brand{
+	font-family: 'Poiret One', cursive;
+	font-size:30px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav_link a{
+  	color:blue;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Nixie One', cursive;
+}
+
+body, p{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.carousel-caption{
+    color:white;
+}
+.caption-black{
+	color:black;
+}
