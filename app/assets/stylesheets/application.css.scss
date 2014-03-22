@@ -151,3 +151,13 @@ body, p{
 	width:150px;
 	font-size:14px;
 }
+
+@media (max-width: 768px){
+    .navbar-nav{
+        text-align: left;
+    }
+}
+
+.navbar-header{
+	float:left;
+}
