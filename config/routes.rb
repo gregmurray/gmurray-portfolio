@@ -9,6 +9,7 @@ Portfolio::Application.routes.draw do
   get 'web_development' => 'home#web'
   get 'mobile_development' => 'home#mobile'
   get 'contact' => 'home#contact'
+  get 'branding' => 'home#branding'
   
 
   # Example of regular route:
