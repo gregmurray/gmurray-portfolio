@@ -1,8 +1,14 @@
-<div class="container">
-	<hr class="featurette-divider">
+
+	<!-- <hr class="featurette-divider"> -->
 	<!-- FOOTER -->
 	<footer>
-		<p class="pull-right"><a href="#">Back to top</a></p>
-		<p>&copy; 2014 Gregory W Murray</p>
+			<div id="bottom_bubble" class="small_bill">
+				 <%= link_to image_tag("/assets/bill_murray.jpg", :width => "100%", :class => "img-circle img-circle-small-border"), "#Your_Awesome", :onclick => "$().make_bill_large();", :mouseover => "$().make_bill_large();", :id => "toggle_bill"%>
+				 </br>
+				 <p id="bill_caption">"Bill Murray - No Relation"</p>
+			</div>
+		<div class="container">
+			<!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
+			<h4>{ &copy; 2014 Greg W Murray }</h4>
+		</div>
 	</footer>
-</div>

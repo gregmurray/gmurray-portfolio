@@ -128,13 +128,24 @@ body, p{
 	background:none;
 }
 
+#portfolio_logo{
+	position:fixed;
+	top:10px;
+	left:40px;
+	width:150px;
+	height:150px;
+	z-index:10000;
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+}
+
 .img-circle-small-border{
 	//border:solid 2px rgba(0,0,0, 0.5);
 	border:solid 2px rgba(228.0,101.0,4.0, 0.5);
 }
 
 #bottom_bubble{
-	position:fixed;
+	position:absolute;
 	bottom:20px;
 	left:20px;
 	z-index:10000;
@@ -163,5 +174,68 @@ body, p{
 }
 
 #bill_caption{
-	background:white;
+	background:black;
+	color:white;
+}
+
+//.brand_logo{
+//	padding:0px !important;
+//	padding-top:0px !important;
+//	margin:0px !important;
+//	border:solid 5px blue;
+//	background-color:green;
+//	display:block;
+//}
+//.nav .brand_logo img{
+//	padding:0px !important;
+//	padding-top:0px !important;
+//	margin-top:0px !important;
+//	width:100%;
+//	height:200%;
+//	border:solid 5px red;
+//	background-color:green;
+//	display:block;
+//}
+//
+//.nav {
+//	padding-top:;
+//}
+
+
+.footer_container{
+}
+footer{
+	margin-top:60px;
+	background-color:black;
+	color:white;
+	padding-top:60px;
+	padding-bottom:20px;
+	text-align:center;
+	position:relative;
+}
+body{
+	padding-bottom:0px !important;
+	margin-bottom:0px !important;
+}
+.center{
+	text-align:center;
+}
+.colorize_header{
+	background-color:black;
+	margin-bottom:0px;
+	padding:15px;
+	color:white;
+}
+.thumbnail{
+	border:none !important;
+}
+.portfolio_row{
+	padding-top:150px;
+}
+
+.virtual{
+
+	font-family: 'Poiret One', cursive;
+	font-size:50px;
+	color:black;
 }
