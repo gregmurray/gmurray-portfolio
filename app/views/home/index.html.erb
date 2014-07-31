@@ -2,181 +2,177 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-          <div class="item active">
-            <!-- <img src="/assets/Aerial04.jpg" > -->
-            <div class="container">
-              <div class="carousel-caption">
-				   <!-- <img class="img-circle img-circle-border" src="/assets/greg.jpg" width="50%"> -->
-              </div>
-            </div>
-          </div>
-      </div>
-    </div><!-- /.carousel -->
-	
-	
-<div class="container">
-      </br>
 
-      <div class="">
-        <!-- <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
-			<img src="/assets/gregmurray.jpg" width="100%">
-      </div>
-	  
-	  </br>
-	  
-	  <div class="row">
-	          <div class="col-lg-12">
-	            <h1>Greg Murray is a Web Developer, iOS Developer, and Photographer </br><span class="text-muted">in Newport Beach, CA</span></h1>
-	            <!-- <p class="text-right"><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p> -->
-	          </div><!-- /.col-lg-4 -->
-	  </div><!-- /.row -->
-</div> <!-- /container -->	  
-	  
-	  <br>
-	  <br>
-	  
-	  <div class="row">
-	          <div class="col-lg-12 center">
-				  <h1 class="colorize_header">{ SKILLS }</h1>
-	            <%= image_tag("/assets/code_desk_with_camera.png", :width => "100%") %>
-	          </div><!-- /.col-lg-12 -->
-	  </div><!-- /.row -->
-	  
-	  
-<div class="container">	  
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><%= link_to "Web Development", "/web_development"%></h4>
-          <p>Greg's passion is for building great applications.  He has created mechanized web crawlers, API's and fully customized web solutions.  His skills and interests include developing and designing applications using Ruby, Ruby on Rails, Javascript, jQuery, HTML5, and CSS.</p>
-		  </br><p class="text-center"><a class="btn btn-default" href="/web_development" role="button">Web Projects &raquo;</a></p>
-		  </br>
-		  
-          <h4><%= link_to "Still Photography", "/still_photography"%></h4>
-          <p>Whenever Greg see's something incredible he has to capture it!  He has been passionate about photography and honing his skills for years.  His interests include landscape, long exposure, and product photography.</p>
-		  </br><p class="text-center"><a class="btn btn-default" href="/still_photography" role="button">Photography &raquo;</a></p>
-		  </br>
+<div class="row">
+	<br>
+	<br>
+		  <%= image_tag("/assets/portfolio_banner_3.png", :width => "100%") %>
+</div>
+
+<div class="container padded_container">	  
+	<div class="row marketing">
+		<div class="col-lg-3 center">
+		  	 <%= image_tag("/assets/icon_screen.png", :class => "landing_page_icons") %>
+	  	</div>
+        <div class="col-lg-9">
+          	<h4><%= link_to "Web Development", "/web_development"%></h4>
+          	<p>Greg's passion is for building great applications.  He has created web crawlers, API's, e-commerce solutions, custom photo rendering algorithms and fully customized web solutions.  His skills and interests include developing and designing applications using Ruby, Ruby on Rails, Javascript, jQuery, HTML5, CSS3 and the best modern design practices.</p>
+		 	 </br>
         </div>
+	</div>
 
-        <div class="col-lg-6">
+	<div class="row marketing">
+		<div class="col-lg-3 center">
+		  	 <%= image_tag("/assets/icon_phone.png", :class => "landing_page_icons") %>
+	  	</div>
+        <div class="col-lg-9">
           <h4><%= link_to "Mobile Development", "/mobile_development"%></h4>
-          <p>Being a technology nut and having the power of his iPhone 5s in his pocket Greg naturally wanted to build native iOS applications.  Transitioning between web applications and mobile is fantastic, each of the respective disciplines compliments each other well.</p>
-		  </br><p class="text-center"><a class="btn btn-default" href="/mobile_development" role="button">Mobile Projects &raquo;</a></p>
-		  </br>
-
-          <h4><%= link_to "Virtual Photography", "/virtual_photography"%></h4>
-          <p>Greg has recently become enamored with 360° virtual images.  It is a perfect blend of his passions for technology and photography, and a lucrative business.  They truly offer an immersive photographic experience.</p>
-		  </br><p class="text-center"><a class="btn btn-default" href="/virtual_photography" role="button">Take a tour &raquo;</a></p>
+          <p>With the power of his iPhone 5s in his pocket Greg naturally wanted to build iOS applications.  Greg's capabilities include building everything from games utilizing the power of SpriteKit to location based data hungry API backed apps with robust backend servers.</p>
+<!--		  </br><p class="text-center"><a class="btn btn-default" href="/mobile_development" role="button">Mobile Projects &raquo;</a></p> -->
 		  </br>
         </div>
-      </div>
+	</div>
+</div> <!-- /container -->	
+	
+ 
+	
+	  
+<div class="row">
+      <div class="col-lg-12 center">
+		  <h1 class="colorize_header">{ SKILLS }</h1>
+        <%= image_tag("/assets/code_desk_with_camera.png", :width => "100%") %>
+      </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+	  
+	  
+<div class="container padded_container">	  
+	<div class="row marketing">
+		<div class="col-lg-3 center">
+		  	 <%= image_tag("/assets/icon_camera.png", :class => "landing_page_icons") %>
+	  	</div>
+        <div class="col-lg-9">
+          <h4><%= link_to "Still Photography", "/still_photography"%></h4>
+          <p>Whenever Greg sees something incredible he has to capture it!  He has been passionate about photography and honing his skills for years.  His interests include landscape, long exposure, and product photography.  He is well versed in pohotoshop, compositing and chroma-key (i.e. green screen) photography.</p>
+		  </br>
+        </div>
+	</div>
+		
+		
+	<div class="row marketing">
+		<div class="col-lg-3 center">
+		  	 <%= image_tag("/assets/icon_360.png", :class => "landing_page_icons") %>
+	  	</div>
+        <div class="col-lg-9">
+          <h4><%= link_to "360° Virtual Photography", "/virtual_photography"%></h4>
+          <p>Greg has recently become enamored with 360° virtual images. To create 360° images Greg utilizes special lenses and equipment to capture multiple images from the location.  The editing process invloves taking these multiple images then stitching and compositing them together on a spherical plane and rendering them in a 360 viewer. It is a perfect blend of his passions for technology and photography. </p>
+        </div>
+	</div>
 </div> <!-- /container -->
 
-  	  <div class="row">
-  	          <div class="col-lg-12 center">
-  				  <h1 class="colorize_header">{ RECENT PROJECTS }</h1>
-				  <div class="container">	  
-  	            	  
-					  <br>
-					  <br>
-					  <br>
-					  <br>
-				      <div class="row">
-				          
-  				        <div class="col-lg-6">
-							<a href="/mobile_development#swipe" class="thumbnail">
-	  						    <div class="">
-								  <%= image_tag("/assets/thumbnails/swipe.png") %>
-	  						      <div class="caption">
-	  						        <h3>Swipe</h3>
-	  						      </div>
-	  						    </div>
-							</a>
-  				        </div>
-				        <div class="col-lg-6">
-							<a href="/mobile_development#dottly" class="thumbnail">
-	  						    <div class="">
-								  <%= image_tag("/assets/thumbnails/dottly.png") %>
-	  						      <div class="caption">
-	  						        <h3>Dottly.</h3>
-	  						      </div>
-	  						    </div>
-							</a>
-				        </div>
-					</div> <!-- row -->
+  	 
+	 
+<div class="row">
+      <div class="col-lg-12 center">
+		  <h1 class="colorize_header">{ RECENT PROJECTS }</h1>
+		  <div class="container">	  
+        	  
+			  <br>
+			  <br>
+			  <br>
+			  <br>
+		      <div class="row">
+		          
+		        <div class="col-lg-6">
+					<a href="/mobile_development#swipe" class="thumbnail">
+					    <div class="">
+						  <%= image_tag("/assets/thumbnails/swipe.png") %>
+					      <div class="caption">
+					        <h3>Swipe</h3>
+					      </div>
+					    </div>
+					</a>
+		        </div>
+		        <div class="col-lg-6">
+					<a href="/mobile_development#dottly" class="thumbnail">
+					    <div class="">
+						  <%= image_tag("/assets/thumbnails/dottly.png") %>
+					      <div class="caption">
+					        <h3>Dottly.</h3>
+					      </div>
+					    </div>
+					</a>
+		        </div>
+			</div> <!-- row -->
+			
+		      <div class="row">
+		          
+		        <div class="col-lg-6">
+					<a href="/web_development#buildakini" class="thumbnail">
+					    <div class="">
+						  <%= image_tag("/assets/thumbnails/buildakini.png", :width => "100%") %>
+					      <div class="caption">
+					        <!-- <h3>Build A Kini</h3> -->
+					      </div>
+					    </div>
+					</a>
+		        </div>
+		        <div class="col-lg-6">
+					<a href="/web_development#casadebalboa" class="thumbnail">
+					    <div class="">
+						  <%= image_tag("/assets/thumbnails/casadebalboa.png") %>
+					      <div class="caption">
+					        <!-- <h3>Casa de Balboa</h3> -->
+					      </div>
+					    </div>
+					</a>
+		        </div>
+			</div> <!-- row -->
+			
+			
+		      <div class="row">
+		          
+		        <div class="col-lg-12 center">
+					<a href="/web_development#360virtual" class="thumbnail">
+					    <div class="">
+						  <p class="virtual">360Virtual</p>
+					      <div class="caption">
+					        <!-- <h3>Build A Kini</h3> -->
+					      </div>
+					    </div>
+					</a>
+		        </div>
+			</div> <!-- row -->
+				
+				<!-- <div class="row">
+				  <div class="col-xs-4 col-md-3">
+				    <a href="#" class="thumbnail">
+				      <img data-src="holder.js/100%x180" alt="...">
+				    </a>
+				  </div>
+				  ...
+				</div> -->
 					
-				      <div class="row">
-				          
-  				        <div class="col-lg-6">
-							<a href="/web_development#buildakini" class="thumbnail">
-	  						    <div class="">
-								  <%= image_tag("/assets/thumbnails/buildakini.png", :width => "100%") %>
-	  						      <div class="caption">
-	  						        <!-- <h3>Build A Kini</h3> -->
-	  						      </div>
-	  						    </div>
-							</a>
-  				        </div>
-				        <div class="col-lg-6">
-							<a href="/web_development#casadebalboa" class="thumbnail">
-	  						    <div class="">
-								  <%= image_tag("/assets/thumbnails/casadebalboa.png") %>
-	  						      <div class="caption">
-	  						        <!-- <h3>Casa de Balboa</h3> -->
-	  						      </div>
-	  						    </div>
-							</a>
-				        </div>
-					</div> <!-- row -->
-					
-					
-				      <div class="row">
-				          
-  				        <div class="col-lg-6">
-							<a href="/web_development#360virtual" class="thumbnail">
-	  						    <div class="">
-								  <p class="virtual">360Virtual</p>
-	  						      <div class="caption">
-	  						        <!-- <h3>Build A Kini</h3> -->
-	  						      </div>
-	  						    </div>
-							</a>
-  				        </div>
-					</div> <!-- row -->
-						
-						<!-- <div class="row">
-						  <div class="col-xs-4 col-md-3">
-						    <a href="#" class="thumbnail">
-						      <img data-src="holder.js/100%x180" alt="...">
-						    </a>
-						  </div>
-						  ...
-						</div> -->
-							
-							<!-- <div class="row">
-							  <div class="col-sm-6 col-md-4">
-							    <div class="thumbnail">
-							      <img data-src="holder.js/300x300" alt="...">
-							      <div class="caption">
-							        <h3>Thumbnail label</h3>
-							        <p>...</p>
-							        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-							      </div>
-							    </div>
-							  </div>
-							</div> -->
-						
-				      </div>
-					  
-					  
-					  
-					  
-					  
-					  
-					  
-					</div> <!-- /container -->
-  	          </div><!-- /.col-lg-12 -->
-  	  </div><!-- /.row -->
+					<!-- <div class="row">
+					  <div class="col-sm-6 col-md-4">
+					    <div class="thumbnail">
+					      <img data-src="holder.js/300x300" alt="...">
+					      <div class="caption">
+					        <h3>Thumbnail label</h3>
+					        <p>...</p>
+					        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					      </div>
+					    </div>
+					  </div>
+					</div> -->
+				
+		      </div>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			</div> <!-- /container -->
+      </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->

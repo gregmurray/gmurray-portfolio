@@ -208,10 +208,14 @@ footer{
 	margin-top:60px;
 	background-color:black;
 	color:white;
-	padding-top:60px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	text-align:center;
 	position:relative;
+}
+footer h4{
+	margin-top:0px;
+	color:white;
 }
 body{
 	padding-bottom:0px !important;
@@ -238,4 +242,20 @@ body{
 	font-family: 'Poiret One', cursive;
 	font-size:50px;
 	color:black;
+}
+.padded_container{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.landing_page_icons
+{
+	max-width:120px;
+	width:100%;
+	margin-bottom:40px;
+}
+html,body{
+    height: 100%
+}
+#yield_container{
+	padding-bottom:50px;
 }
