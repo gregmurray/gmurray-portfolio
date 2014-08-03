@@ -82,8 +82,9 @@ $(window).resize(function() {
 
 });
 
-$(document).ready(function () {
-
+// $(document).ready(function () {
+$(document).on('ready page:load', function () {
+	
     if ($(this).width() < 778) {
   	  $('#banner_large').hide();
   	  $('#banner_small').show();
