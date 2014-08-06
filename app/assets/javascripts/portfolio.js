@@ -70,14 +70,16 @@ $(window).resize(function() {
 	  $('#skills_mobile_list').show();
 	  //$('#projects_banner').innerHTML="JavaScript";
 	  document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
-	  
+
+	  $('#main_navbar').removeClass("navbar_padded");
   } 
   else 
   {
 	  $('#skills_mobile_list').hide();
 	  document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
 	  
-	  
+
+	  $('#main_navbar').addClass("navbar_padded");
   }
 
 });
@@ -112,12 +114,14 @@ $(document).on('ready page:load', function () {
 	  
 	  
 	  document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
+  	  $('#main_navbar').removeClass("navbar_padded");
     } 
     else 
     {
   	  $('#skills_mobile_list').hide();
 	  document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
-	  
+
+  	  $('#main_navbar').addClass("navbar_padded");
     }
 
 });
