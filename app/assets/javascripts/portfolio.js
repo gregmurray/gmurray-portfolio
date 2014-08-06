@@ -54,6 +54,22 @@ $(window).resize(function() {
 	  // Resize logo
 	  $('#portfolio_logo').removeClass("large_logo");
 	  $('#portfolio_logo').addClass("small_logo");
+	  
+	  // Navbar Padding
+	  $('#main_navbar').removeClass("navbar_padded");
+	  
+	  // Hide skills list  
+	  $('#skills_mobile_list').show();
+	  //$('#projects_banner').innerHTML="JavaScript";
+	  // on index page pnly
+	  if( $('#projects_banner').length )         // use this if you are using class to check
+	  {
+	      document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
+	  }
+	  
+	  
+	  
+
   } 
   else 
   {
@@ -63,23 +79,35 @@ $(window).resize(function() {
 	  // Resize logo
 	  $('#portfolio_logo').removeClass("small_logo");
 	  $('#portfolio_logo').addClass("large_logo");
+	  
+	  // Navbar PAdding
+	  $('#main_navbar').addClass("navbar_padded");
+	  
+	  $('#skills_mobile_list').hide();
+	  if( $('#projects_banner').length )         // use this if you are using class to check
+	  {
+	  	  document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
+	  }
+	  
+	  
+	  
   }
   
-  if ($(this).width() < 670) {
-	  // Hide skills list  
-	  $('#skills_mobile_list').show();
-	  //$('#projects_banner').innerHTML="JavaScript";
-	  document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
-
-	  $('#main_navbar').removeClass("navbar_padded");
+  if ($(this).width() < 500) {
+	  
+	  if( $('.mobile_screenshot').length )         // use this if you are using class to check
+	  {
+		  $('.mobile_screenshot').removeClass("mobile_screenshot_small");
+		  $('.mobile_screenshot').addClass("mobile_screenshot_large");
+	  }
   } 
   else 
   {
-	  $('#skills_mobile_list').hide();
-	  document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
-	  
-
-	  $('#main_navbar').addClass("navbar_padded");
+	  if( $('.mobile_screenshot').length )         // use this if you are using class to check
+	  {
+		  $('.mobile_screenshot').removeClass("mobile_screenshot_large");
+		  $('.mobile_screenshot').addClass("mobile_screenshot_small");
+	  }
   }
 
 });
@@ -96,6 +124,14 @@ $(document).on('ready page:load', function () {
 	  $('#portfolio_logo').removeClass("large_logo");
 	  $('#portfolio_logo').addClass("small_logo");
 	  
+	  // Navbar Padding
+  	  $('#main_navbar').removeClass("navbar_padded");
+	  
+  	  $('#skills_mobile_list').show();
+	  if( $('#projects_banner').length )         // use this if you are using class to check
+	  {
+	  		document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
+	  }
     } 
     else 
     {
@@ -106,22 +142,32 @@ $(document).on('ready page:load', function () {
 	  // Resize logo
 	  $('#portfolio_logo').removeClass("small_logo");
 	  $('#portfolio_logo').addClass("large_logo");
+	  
+	  // Navbar Padding
+  	  $('#main_navbar').addClass("navbar_padded");
+	  
+  	  $('#skills_mobile_list').hide();
+	  if( $('#projects_banner').length )         // use this if you are using class to check
+	  {
+	  		document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
+	   }
+
     }
 	
     if ($(this).width() < 670) {
-  	  // Hide skills list
-  	  $('#skills_mobile_list').show();
-	  
-	  
-	  document.getElementById("projects_banner").innerHTML = "{ PROJECTS }";
-  	  $('#main_navbar').removeClass("navbar_padded");
+	  if( $('.mobile_screenshot').length )         // use this if you are using class to check
+	  {
+		  $('.mobile_screenshot').removeClass("mobile_screenshot_small");
+		  $('.mobile_screenshot').addClass("mobile_screenshot_large");
+	  }
     } 
     else 
     {
-  	  $('#skills_mobile_list').hide();
-	  document.getElementById("projects_banner").innerHTML = "{ RECENT PROJECTS }";
-
-  	  $('#main_navbar').addClass("navbar_padded");
+    	  if( $('.mobile_screenshot').length )         // use this if you are using class to check
+    	  {
+    		  $('.mobile_screenshot').removeClass("mobile_screenshot_large");
+    		  $('.mobile_screenshot').addClass("mobile_screenshot_small");
+    	  }
     }
 
 });
