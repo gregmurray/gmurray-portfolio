@@ -4,10 +4,10 @@ Portfolio::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#index'
-  get 'still_photography' => 'home#still_photography'
-  get 'virtual_photography' => 'home#virtual_photography'
-  get 'web_development' => 'home#web'
-  get 'mobile_development' => 'home#mobile'
+  get 'still-photography' => 'home#still_photography'
+  get 'virtual-photography' => 'home#virtual_photography'
+  get 'web-development' => 'home#web'
+  get 'mobile-development' => 'home#mobile'
   get 'contact' => 'home#contact'
   get 'branding' => 'home#branding'
   
