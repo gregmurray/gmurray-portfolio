@@ -5,6 +5,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "Hi I'm Greg, an Application Developer in Southern California" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Drop Pop" %>">
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "iphone_animation", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 	<link rel="shortcut icon" href="favicon.ico"/>
     <%= csrf_meta_tags %>
