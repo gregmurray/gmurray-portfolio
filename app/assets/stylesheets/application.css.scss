@@ -283,10 +283,17 @@ html,body{
 
 .web_screenshot{
 	width:100%;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(184,184,184,0.63);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(184,184,184,0.63);
+	box-shadow: 0px 0px 20px 5px rgba(184,184,184,0.63);
 }
 .mobile_screenshot_large{
 	width:70%;
 }
 .mobile_screenshot_small{
 	width:40%;
+}
+
+.logo-tumbnails{
+	min-height:200px;
 }
